@@ -2,6 +2,9 @@
   "version": 2,
   "projects": {
     "demo": "apps/demo",
-    "demo-e2e": "apps/demo-e2e"
+    "demo-e2e": "apps/demo-e2e",
+    "react-components-switch": "libs/react/components/switch",
+    "topic-button": "libs/react/topic-button",
+    "use-viewport-size": "libs/react/use-viewport-size"
   }
 }

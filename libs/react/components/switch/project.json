@@ -1,0 +1,44 @@
+{
+  "root": "libs/react/components/switch",
+  "sourceRoot": "libs/react/components/switch/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nrwl/web:package",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/react/components/switch",
+        "tsConfig": "libs/react/components/switch/tsconfig.lib.json",
+        "project": "libs/react/components/switch/package.json",
+        "entryFile": "libs/react/components/switch/src/index.ts",
+        "external": ["react/jsx-runtime"],
+        "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
+        "assets": [
+          {
+            "glob": "libs/react/components/switch/README.md",
+            "input": ".",
+            "output": "."
+          }
+        ]
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "libs/react/components/switch/**/*.{ts,tsx,js,jsx}"
+        ]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/react/components/switch"],
+      "options": {
+        "jestConfig": "libs/react/components/switch/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "root": "libs/react/topic-button",
+  "sourceRoot": "libs/react/topic-button/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nrwl/web:package",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/react/topic-button",
+        "tsConfig": "libs/react/topic-button/tsconfig.lib.json",
+        "project": "libs/react/topic-button/package.json",
+        "entryFile": "libs/react/topic-button/src/index.ts",
+        "external": ["react/jsx-runtime"],
+        "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
+        "assets": [
+          {
+            "glob": "libs/react/topic-button/README.md",
+            "input": ".",
+            "output": "."
+          }
+        ]
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/react/topic-button/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/react/topic-button"],
+      "options": {
+        "jestConfig": "libs/react/topic-button/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}
