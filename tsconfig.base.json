@@ -16,7 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@mtdesign/switch": ["libs/react/components/switch/src/index.ts"],
-      "@mtdesign/topic-button": ["libs/react/topic-button/src/index.ts"],
+      "@mtdesign/topic-button": ["libs/react/components/topic-button/src/index.ts"],
       "@mtdesign/use-viewport-size": [
         "libs/react/use-viewport-size/src/index.ts"
       ]

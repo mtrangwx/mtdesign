@@ -4,7 +4,7 @@
     "demo": "apps/demo",
     "demo-e2e": "apps/demo-e2e",
     "react-components-switch": "libs/react/components/switch",
-    "topic-button": "libs/react/topic-button",
+    "topic-button": "libs/react/components/topic-button",
     "use-viewport-size": "libs/react/use-viewport-size"
   }
 }
