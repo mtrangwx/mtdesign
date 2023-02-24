@@ -1,4 +1,5 @@
-@import '../../../node_modules/@woolworthslimited/core-styles-components-button/dist/mixins/button.scss';
+@import '@woolworthslimited/core-tokens/dist/woolworths/css/tokens.css';
+@import '@woolworthslimited/core-styles-components-button/dist/mixins/button.scss';
 
 .button {
   @include core-button();
