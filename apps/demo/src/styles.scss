@@ -1,0 +1,5 @@
+@import '../../../node_modules/@woolworthslimited/core-styles-components-button/dist/mixins/button.scss';
+
+.button {
+  @include core-button();
+}

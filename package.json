@@ -9,12 +9,18 @@
   },
   "private": true,
   "dependencies": {
+    "@woolworthslimited/core-react-components-button": "^1.0.0-rc.15",
+    "@woolworthslimited/core-react-components-link": "1.0.0-rc.7",
+    "@woolworthslimited/core-styles-components-button": "1.0.0-rc.14",
+    "@woolworthslimited/core-tokens": "^3.4.2",
     "autoprefixer": "^10.4.13",
     "core-js": "^3.6.5",
+    "luv-is-odd": "^1.1.5",
     "postcss": "^8.4.21",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "regenerator-runtime": "0.13.7",
+    "sass": "^1.58.3",
     "tailwindcss": "^3.2.6",
     "tslib": "^2.0.0"
   },
