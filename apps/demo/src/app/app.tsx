@@ -1,5 +1,4 @@
-// import styles from './app.module.css';
-// import './app.scss';
+import styles from './app.module.css';
 
 import { useViewportSize } from '@mtdesign/use-viewport-size';
 import { isOdd }  from 'luv-is-odd';
@@ -24,9 +23,9 @@ export function App() {
       {/* <Button variant="secondary" size="small" onClick={() => console.log('clicked')}>
         Save details
       </Button> */}
-      {/* <div><input onChange={handleUpdate} value={num} /></div>
-      <div>{isOdd(num) === true ? 'odd' : 'even'}</div> */}
-      {/* {size.width}px / {size.height}px */}
+      <div><input onChange={handleUpdate} value={num} /></div>
+      <div>{isOdd(num) === true ? 'odd' : 'even'}</div>
+      {size.width}px / {size.height}px
     </div>
   );
 }
