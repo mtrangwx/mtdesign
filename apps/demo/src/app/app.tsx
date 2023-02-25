@@ -1,4 +1,5 @@
-import styles from './app.module.css';
+// import styles from './app.module.css';
+import "./app.scss";
 
 import { useViewportSize } from '@mtdesign/use-viewport-size';
 import { isOdd }  from 'luv-is-odd';
@@ -17,8 +18,11 @@ export function App() {
     {/* <div className={styles.app} data-testid="app"> */}
 
       <button className="button primary">Button primary</button>
+      <br/>
       <button className="button secondary">Button secondary</button>
+      <br/>
       <button className="button destructive">Button destructive</button>
+      <br/>
 
       {/* <Button variant="secondary" size="small" onClick={() => console.log('clicked')}>
         Save details
