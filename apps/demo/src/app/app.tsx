@@ -17,7 +17,7 @@ export function App() {
     <div data-testid="app">
     {/* <div className={styles.app} data-testid="app"> */}
 
-      <button className="button primary">Button primary</button>
+      <button className="button primary">Button primary!</button>
       <br/>
       <button className="button secondary">Button secondary</button>
       <br/>
